@@ -4,6 +4,7 @@ public class Student {
     private String name;
     private String gender;
     private Integer age;
+    private String address;
 
     @Override
     public String toString() {
@@ -11,7 +12,16 @@ public class Student {
                 "name='" + name + '\'' +
                 ", gender='" + gender + '\'' +
                 ", age=" + age +
+                ", address='" + address + '\'' +
                 '}';
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getName() {
