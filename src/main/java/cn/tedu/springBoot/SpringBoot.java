@@ -11,7 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("cn.tedu.springBoot.mapper")  //扫描接口 为接口创建代理对象
 public class SpringBoot {
 
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
         SpringApplication.run(SpringBoot.class,args);
     }
 }
